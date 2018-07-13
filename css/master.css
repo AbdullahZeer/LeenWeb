@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'leen-icons';
+  src:  url('fonts/leen-icons.eot?hudopm');
+  src:  url('fonts/leen-icons.eot?hudopm#iefix') format('embedded-opentype'),
+    url('fonts/leen-icons.ttf?hudopm') format('truetype'),
+    url('fonts/leen-icons.woff?hudopm') format('woff'),
+    url('fonts/leen-icons.svg?hudopm#leen-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'leen-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-phone{
+  font-size: 4em;
+  color: #345995;
+  opacity: 0.4;
+}
+.icon-phone:before {
+  content: "\e900";
+}
+
+.icon-envelope-o{
+  font-size: 4em;
+  color: #ff4343;
+  opacity: 0.4;
+}
+.icon-envelope-o:before {
+  content: "\e901";
+}
+.icon-instagram{
+  font-size: 4em;
+  color: #BC2A8D;
+  opacity: 0.4;
+}
+.icon-instagram:before {
+  content: "\e902";
+}
+
+.Header{
+max-width: 100%;
+height: auto;
+
+}
+#head{
+  text-align: center;
+}
+.Logo{
+  max-height: 20%;
+  max-width: 20%;
+
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.active{
+color: rgb(79,79,79)!important ;
+font-family: 'Lobster Two',sans-serif;
+
+font-size: 16px;
+}
+
+
+
+.Hide{
+  display: none;
+}
+
+.myNav{
+font-family: sans-serif;
+background-color: #95d9d9;
+padding-left: 35% !important;
+text-align: center;
+font-size: 15px;
+
+
+}
+.nav-item{
+  cursor: pointer;
+}
+@media screen and (max-width: 768px){
+
+  .Nav{
+    padding-left: 0 !important;
+  }
+}
+
+
+.BelowHeader{
+text-align: center;
+
+}
+
+#Home-Content{
+  margin-top: 1%;
+}
+
+#Design-Content{
+    margin-top: 5em;
+}
+
+.design-card {
+  width: 280px;
+  height: 280px;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  z-index: 5;
+  margin: auto;
+  margin-bottom: 40px;
+  -webkit-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  -o-transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.design-card img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.design-card:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+#Contact-Content{
+  margin-top: 5em;
+}
+
+.phone-hr{
+  background: #B5C2D8;
+  opacity: 0.2;
+  margin-bottom: 10px;
+}
+.instagram-hr {
+    background: #ECC4DF;
+    opacity: 0.6;
+}
+
+.email-hr{
+  background: #FFC4C4;
+  opacity: 0.4;
+}
